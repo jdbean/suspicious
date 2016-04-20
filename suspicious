@@ -169,7 +169,7 @@ parser.add_option("-s", "--skip",
 		action="append")
 parser.add_option("-v", "--verbose", 
 		dest="verbose", 
-		help="print verberose information", 
+		help="print verbose information", 
 		default=False, 
 		action="store_true")
 parser.add_option("-r", "--report", 
@@ -195,7 +195,7 @@ parser.add_option("-l", "--max-wholeword-length",
 		dest="maxwholewordlength", 
 		type="int", 
 		default=-1, 
-		help="maximun length of a word allowed to only find matches on whole word")
+		help="maximum length of a word allowed to only find matches on whole word")
 parser.add_option("-o", "--summary-file", 
 		dest="summaryfile", 
 		help="name of the file to store the summary in")
@@ -207,11 +207,11 @@ parser.add_option("-x", "--display-summary",
 parser.add_option("-X", "--dont-display-summary", 
 		dest="dontdisplaysummary", 
 		default=False, 
-		help="Dont Display a summary after running a scan", 
+		help="Don't display a summary after running a scan", 
 		action="store_true")
 parser.add_option("-k", "--commonwords", 
 		dest="commonwordfilename", 
-		help="file containing commmon words that allow do not indicate a suspicious file")
+		help="file containing commmon words that alone should not indicate a suspicious file")
 parser.add_option("-t", "--test", 
 		dest="test", 
 		default=False, 
